@@ -59,6 +59,8 @@ Do not use `change` as a vague substitute for `refactor`, `fix`, or `feat`. Pref
 
 The body is optional and is chosen by the model according to the change. When present, explain motivation, impact, constraints, or migration details instead of mechanically repeating the subject.
 
+Use the language of the repository's previous commit messages. If there are no previous commits or no clear language pattern, use Chinese by default.
+
 ## Breaking changes
 
 Use the project's visible marker and add a separate standard footer containing migration information:
